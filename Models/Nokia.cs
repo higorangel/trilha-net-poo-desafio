@@ -5,10 +5,8 @@ namespace DesafioPOO.Models
     {
         public Nokia(string numero, string imei, string modelo, int memoria) : base(numero)
         {
-
         }
         
-
         // TODO: Sobrescrever o método "InstalarAplicativo"
         public override void InstalarAplicativo(string nomeApp)
         {
